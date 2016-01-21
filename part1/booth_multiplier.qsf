@@ -54,3 +54,4 @@ set_global_assignment -name VERILOG_FILE booth_encoder.v
 set_global_assignment -name VERILOG_FILE full_adder.v
 set_global_assignment -name VERILOG_FILE full_adder_booth_encoded_8bit.v
 set_global_assignment -name VERILOG_FILE full_adder_booth_encoded.v
+set_global_assignment -name VERILOG_FILE sign_extension_array_2bit.v

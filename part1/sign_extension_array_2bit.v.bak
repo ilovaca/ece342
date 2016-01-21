@@ -1,0 +1,6 @@
+module sign_extension_array_2bit (Sign_in, Cin, Sign_out, Sout);
+	input Sign_in, Cin;
+	output Sign_out, Sout;
+	full_adder ();
+	full_adder ();
+endmodule 
