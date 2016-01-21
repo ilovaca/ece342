@@ -1,0 +1,7 @@
+module full_adder_booth_encoded_8bit (A, B, Cin, plus, minus, Sout, Cout);
+	input A, B, Cin, plus, minus;
+	output Sout, Cout;
+	wire 
+	full_adder FA (,B);
+	
+endmodule

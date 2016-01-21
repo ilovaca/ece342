@@ -1,0 +1,14 @@
+module partial_product_8bit (m, q, Cin, Cout, Sout);
+	input [7:0] m;
+	input q, Cin;
+	output [7:0] Cout, Sout;
+	full_adder ADDER_0 (m[0] & q, 0, 0, Cout[0], Sout[0]);
+	full_adder ADDER_1 (m[1] & q, 0, 0, Cout[1], Sout[1]);
+	full_adder ADDER_2 (m[2] & q, 0, 0, Cout[2], Sout[2]);
+	full_adder ADDER_3 (m[3] & q, 0, 0, Cout[3], Sout[3]);
+	full_adder ADDER_4 (m[4] & q, 0, 0, Cout[4], Sout[4]);
+	full_adder ADDER_5 (m[5] & q, 0, 0, Cout[5], Sout[5]);
+	full_adder ADDER_6 (m[6] & q, 0, 0, Cout[6], Sout[6]);
+	full_adder ADDER_7 (m[7] & q, 0, 0, Cout[7], Sout[7]);
+
+endmodule

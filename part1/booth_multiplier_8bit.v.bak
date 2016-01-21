@@ -1,0 +1,5 @@
+module booth_multiplier_8bit (A,B,P);
+	input 	[7:0] A, B;
+	output 	[8:0] P;
+	
+endmodule

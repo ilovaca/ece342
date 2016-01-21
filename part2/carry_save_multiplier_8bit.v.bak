@@ -1,0 +1,4 @@
+module carry_save_multiplier_8bit (M, Q, Pout);
+	input [7:0] M,Q;
+	output [15:0] Pout;
+	
